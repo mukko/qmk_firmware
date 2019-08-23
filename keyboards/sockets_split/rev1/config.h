@@ -65,13 +65,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #undef RGBLED_NUM
 #define RGBLED_NUM 10    // Number of LEDs
-
-#define RGBLIGHT_HUE_STEP 10
-#define RGBLIGHT_SAT_STEP 17
+#define RGBLIGHT_SPLIT
 
 #define RGBLIGHT_ANIMATIONS
 */
-
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
