@@ -100,7 +100,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * ,-----------------------------------------------------------------------------------.
  * |   `  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  | Del  |
  * |------+------+------+------+------+-------------+------+------+------+------+------|
- * | Del  |     |      |      |      |      | left | down |  up  |right |   ]  |  \   |
+ * |      |     |      |      |      |      | left | down |  up  |right |   ]  |  \   |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
  * |      |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |  F7  |  F8  |  F9  | F10  | F11  |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
@@ -109,7 +109,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_RAISE] = LAYOUT_ortho_4x12( \
   KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_DEL, \
-  KC_DEL,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx,   KC_LEFT,  KC_DOWN, KC_UP,  KC_RGHT, KC_RBRC, KC_BSLS, \
+  _______,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx,   KC_LEFT,  KC_DOWN, KC_UP,  KC_RGHT, KC_RBRC, KC_BSLS, \
   _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,  KC_F5,  KC_F6,  KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, \
   _______, _______, _______, _______, _______, _______, _______, _______, KC_MNXT, KC_VOLD, KC_VOLU, KC_MPLY \
 ),

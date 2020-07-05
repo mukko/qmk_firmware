@@ -60,7 +60,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* ws2812 RGB LED */
 
 /* rgb light */
-/*
+
 #define RGB_DI_PIN D3
 
 #undef RGBLED_NUM
@@ -68,7 +68,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SPLIT
 
 #define RGBLIGHT_ANIMATIONS
-*/
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
